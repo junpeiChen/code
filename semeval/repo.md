@@ -23,7 +23,7 @@
 
 方法B: 准确率 0.74
 
-方法B: 加入 R-Drop + Label Smoothing + Weighted Loss + 清洗 + 数据增强 准确率 0.80
+方法C: 加入 R-Drop + Label Smoothing + Weighted Loss + 清洗 + 数据增强 准确率 0.80
 
 ## 待探索方向
 目前正在研究以下方法来提升准确率：
