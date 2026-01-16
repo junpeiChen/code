@@ -45,7 +45,9 @@
 评估阶段：
 
 在取得最高准确率的代码上更换验证集，没有其他改动                          准确率 0.74
+
 把模型更换为Roberta-base                                               准确率 0.73（可见Roberta-base不适合此分类问题）
+
 修改推理代码，logit ensemble + threshold tuning（threshold=0.45）       准确率 0.74
 
 ## 待探索方向
