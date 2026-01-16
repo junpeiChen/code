@@ -25,6 +25,10 @@
 
 方法D:  使用token classification方法，加上优化推理  准确率 0.21
 
+评估阶段：
+
+把模型更换为Roberta-base，使用token classification + BIO标签体系 + WeightedLossTrainer：带 α 类别权重 准确率 0.19
+
 ### 子任务2:目前最高准确率0.81
 已尝试的替代方法及其结果：（其中方法A ~ E 是在基础模型上修改的）
 
