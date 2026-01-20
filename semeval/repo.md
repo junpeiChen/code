@@ -48,6 +48,8 @@
 
 修改推理代码，logit ensemble + threshold tuning（threshold=0.45）       准确率 0.74
 
+删除数据清理部分，修改learning_rate为1e-5，训练使用官方提供数据集，验证集为生成数据集        准确率 0.73
+
 ## 待探索方向
 目前正在研究以下方法来提升准确率：
 
