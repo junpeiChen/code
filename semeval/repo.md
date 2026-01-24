@@ -27,6 +27,8 @@
 
 评估阶段：
 
+distilbert模型，使用token classification方法                           准确率 0.21
+
 把模型更换为Roberta-base                                               准确率 0.19
 
 把模型更换为deberta-v3-small                                           准确率 0.18
