@@ -27,6 +27,8 @@
 
 评估阶段：
 
+把模型更换为Roberta-base                                               准确率 0.19
+
 ### 子任务2:目前最高准确率0.81
 已尝试的替代方法及其结果：（其中方法A ~ E 是在基础模型上修改的）
 
@@ -47,6 +49,8 @@
 把模型更换为Roberta-base                                               准确率 0.73
 
 修改推理代码，logit ensemble + threshold tuning（threshold=0.45）       准确率 0.74
+
+把模型更换为deberta-v3-small                                            准确率 0.72
 
 删除数据清理部分，修改learning_rate为1e-5，训练使用官方提供数据集，验证集为生成数据集        准确率 0.73
 
