@@ -60,6 +60,8 @@ distilbert模型，使用token classification方法                           �
 
 继续使用Roberta-base训练，删除数据清理部分，修改learning_rate为1e-5，训练使用官方提供数据集，验证集为生成数据集        准确率 0.73
 
+添加optuna超参数方法                                                      准确率 0.74
+
 ## 待探索方向
 目前正在研究以下方法来提升准确率：
 
