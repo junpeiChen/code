@@ -25,7 +25,7 @@
 
 方法D:  使用token classification方法，加上优化推理  准确率 0.21
 
-评估阶段：
+评估阶段：baseline 准确率 0.15
 
 distilbert模型，使用token classification方法                           准确率 0.21
 
